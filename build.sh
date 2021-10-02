@@ -3,9 +3,9 @@
 # Just a basic script U can improvise lateron asper ur need xD 
 
 MANIFEST="git://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git -b twrp-11"
-DEVICE=phoenix
-DT_LINK="https://github.com/hraj9258/twrp_phoenix -b a11"
-DT_PATH=device/xiaomi/$DEVICE
+DEVICE=X689
+DT_LINK="https://github.com/SebaUbuntu-Recovery-Lab/android_device_infinix_Infinix-X689/tree/vnd_x689_h696-user-11-RP1A.200720.011-149710-release-keys"
+DT_PATH=device/infinix/$X689
 
 echo " ===+++ Setting up Build Environment +++==="
 apt install openssh-server -y
